@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/jpberaldo/qa.desafio-cypress-automation#readme",
   "devDependencies": {
-    "cypress": "^15.17.0"
+    "@cypress/xpath": "^2.0.3",
+    "@faker-js/faker": "^10.4.0",
+    "cypress": "^15.17.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
