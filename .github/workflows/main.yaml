@@ -1,4 +1,4 @@
-name: Web E2E Tests
+name: Cypress WEB e API Testes
 
 on:
     workflow_dispatch:
