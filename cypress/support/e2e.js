@@ -20,3 +20,10 @@ require('@cypress/xpath');
 
 //reports
 import 'cypress-mochawesome-reporter/register';
+
+// ensure preprocessor utilities relying on Cypress.config('isInteractive') don't crash
+try {
+	Cypress.config('isInteractive', false);
+} catch (e) {
+	// ignore if not available in this context
+}
