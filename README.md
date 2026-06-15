@@ -28,16 +28,9 @@ npm install
 
 ## Tecnologias usadas
 
-- Cypress (end-to-end)
+- Cypress (testes)
 - cypress-cucumber-preprocessor (BDD / Gherkin)
 - cypress-mochawesome-reporter (relatório HTML)
-- esbuild (preprocessamento)
-
-## Executar os testes web
-
-```bash
-npm run test-web
-```
 
 ## Executar os testes web
 
